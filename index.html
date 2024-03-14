@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bio</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #007bff;
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    /* Introduction and Skills sections */
+    .section {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    /* Profile Picture */
+    .profile-pic {
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form */
+    form {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    /* Skills Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #007bff;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>My Bio</h1>
+    </header>
+
+    <section class="section">
+      <h2>Introduction</h2>
+      <p>I am John Doe, a passionate web developer with years of experience.</p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <p>I specialize in HTML, CSS, JavaScript, and PHP.</p>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <p>I graduated from XYZ University with a degree in Computer Science.</p>
+    </section>
+
+    <section class="section">
+      <h2>Work Experience</h2>
+      <p>I have worked at ABC Company as a web developer for 5 years.</p>
+    </section>
+
+    <section class="section">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>Email: <a href="mailto:behishta.hamidi@auaf.edu.af">behishta.hamidi@auaf.edu.af</a></li>
+        <li>Phone: ++93 79 842 7932</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Profile Picture</h2>
+      <img class="profile-pic" src="beheshta.png" alt="Profile Picture" width="200">
+    </section>
+
+    <!-- <section class="section">
+            <h2>Send me a message</h2>
+            <form action="submit.php" method="post">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section> -->
+
+    <section class="section">
+      <h2>Skills Table</h2>
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Advanced</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Intermediate</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+
+</html>
